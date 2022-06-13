@@ -1,0 +1,34 @@
+.container {
+  height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 40px;
+}
+.bigGlobe {
+  display: flex;
+}
+
+.smallGlobe {
+  display: none;
+}
+.noteAdd {
+  font-size: 24px;
+  font-weight: bolder;
+}
+@media screen and (max-width: 480px) {
+  .signUpForm {
+    border: none;
+  }
+  .bigGlobe {
+    display: none;
+  }
+  .smallGlobe {
+    display: flex;
+  }
+  .noteAdd {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  margin: 0;
+  background-color: rgba(255, 255, 136, 0.4);
+  /* border-radius: 5px; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  gap: 20px;
+}
+.cardTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(255, 255, 136, 0.2);
+  /* background-color: transparent; */
+  /* border-radius: 5px; */
+  /* box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); */
+}
+.noteDelete img {
+  width: 18px;
+  cursor: pointer;
+}
+
+.noteDelete img:hover {
+  width: 20px;
+}
+
+.categoryLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(37, 14, 188);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.noteText {
+  cursor: pointer;
+  overflow: auto;
+}
+
+.noteTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.noteCategory {
+  color: rgb(40, 40, 41);
+}
+
+.noteDate {
+  font-size: 0.7rem;
+  color: rgb(84, 84, 85);
+}

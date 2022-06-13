@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  width: 200px;
+  /* height: 100%; */
+  background-color: #000000;
+  padding: 20px;
+  box-shadow: 0 0 0 0;
+  border-top: 4px white solid;
+  box-sizing: border-box; /* it is saying padding and border are included in the width and height of container */
+}
+
+.sidebarItems {
+  color: #fff;
+  font-size: 20;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.sidebarItems img {
+  margin-right: 10px;
+  width: 16px;
+}
+
+.sidebarItems span {
+  color: #fff;
+  font-size: 20px;
+}
+
+.sidebarItems span:hover {
+  color: rgb(183, 176, 176);
+}

@@ -1,0 +1,27 @@
+.container {
+  height: calc(100vh - 80px);
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 20px;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  gap: 20px;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+}
+
+.message {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.checkemail {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 1);
+}

@@ -1,0 +1,47 @@
+{
+  "myNotes": [
+    {
+      "id": 1,
+      "title": "Home work",
+      "category": "Todo",
+      "date": "12-12-2022",
+      "content": "This is the first note"
+    },
+    {
+      "id": 2,
+      "title": "Greatest job",
+      "category": "News",
+      "date": "12-12-2022",
+      "content": "This is the second note"
+    },
+    {
+      "id": 3,
+      "title": "Buy milk",
+      "category": "Todo",
+      "date": "12-12-2022",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dicta sit saepe praesentium, facere debitis accusamus hic, labore, ut error reprehenderit sint nisi. Commodi, quidem reiciendis deleniti quaerat suscipit eos! Quas eaque eius error non placeat natus incidunt odio omnis praesentium earum. Quae voluptatum veniam reiciendis maiores. Similique blanditiis perspiciatis molestiae sequi soluta at tempore eos repellendus, voluptatum voluptatibus adipisci! Earum asperiores cumque quae, amet necessitatibus illum architecto enim quis. Eius quibusdam quidem iure itaque libero a cupiditate vel earum. Incidunt dolorum doloribus illum animi, sed earum consectetur libero totam. Similique magnam consequatur molestias minima nam veritatis atque, eum ipsum deleniti non nobis cupiditate adipisci officia, neque vel magni illo optio incidunt debitis eius! Reiciendis itaque quo facilis culpa reprehenderit. In quaerat esse dicta rem perspiciatis. Id vero fuga ipsum culpa ex? Modi omnis porro impedit iure quidem, id voluptate maxime sequi. Beatae perspiciatis totam excepturi ad autem quisquam ratione?"
+    },
+    {
+      "id": 4,
+      "title": "Big work",
+      "category": "Project",
+      "date": "12-12-2022",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dicta sit saepe praesentium, facere debitis accusamus hic, labore, ut error reprehenderit sint nisi. Commodi, quidem reiciendis deleniti quaerat suscipit eos! Quas eaque eius error non placeat natus incidunt odio omnis praesentium earum. Quae voluptatum veniam reiciendis maiores. Similique blanditiis perspiciatis molestiae sequi soluta at tempore eos repellendus, voluptatum voluptatibus adipisci! Earum asperiores cumque quae, amet necessitatibus illum architecto enim quis. Eius quibusdam quidem iure itaque libero a cupiditate vel earum. Incidunt dolorum doloribus illum animi, sed earum consectetur libero totam. Similique magnam consequatur molestias minima nam veritatis atque, eum ipsum deleniti non nobis cupiditate adipisci officia, neque vel magni illo optio incidunt debitis eius! Reiciendis itaque quo facilis culpa reprehenderit. In quaerat esse dicta rem perspiciatis. Id vero fuga ipsum culpa ex? Modi omnis porro impedit iure quidem, id voluptate maxime sequi. Beatae perspiciatis totam excepturi ad autem quisquam ratione?"
+    },
+    {
+      "id": 5,
+      "title": "Team meeting",
+      "category": "Info",
+      "date": "12-12-2022",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dicta sit saepe praesentium, facere debitis accusamus hic, labore, ut error reprehenderit sint nisi. Commodi, quidem reiciendis deleniti quaerat suscipit eos! Quas eaque eius error non placeat natus incidunt odio omnis praesentium earum. Quae voluptatum veniam reiciendis maiores. Similique blanditiis perspiciatis molestiae sequi soluta at tempore eos repellendus, voluptatum voluptatibus adipisci! Earum asperiores cumque quae, amet necessitatibus illum architecto enim quis. Eius quibusdam quidem iure itaque libero a cupiditate vel earum. Incidunt dolorum doloribus illum animi, sed earum consectetur libero totam. Similique magnam consequatur molestias minima nam veritatis atque, eum ipsum deleniti non nobis cupiditate adipisci officia, neque vel magni illo optio incidunt debitis eius! Reiciendis itaque quo facilis culpa reprehenderit. In quaerat esse dicta rem perspiciatis. Id vero fuga ipsum culpa ex? Modi omnis porro impedit iure quidem, id voluptate maxime sequi. Beatae perspiciatis totam excepturi ad autem quisquam ratione?"
+    }
+  ],
+
+  "categoryList": [
+    { "id": "1", "category": "News" },
+    { "id": "2", "category": "Info" },
+    { "id": "3", "category": "Documents" },
+    { "id": "4", "category": "Work" },
+    { "id": "5", "category": "Todo" }
+  ]
+}

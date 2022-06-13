@@ -1,0 +1,113 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  width: 100%;
+  /* height: 100%; */
+  padding: 20px;
+  margin: 0;
+  background-color: #fafafa;
+  gap: 10px;
+}
+
+.headerIcons {
+  display: flex;
+  justify-content: flex-end;
+  /* width: auto; */
+}
+
+.headerIcons img {
+  width: 24px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.noteContents {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  /*height: 100%; */
+  background-color: #fafafa;
+  padding: 20px;
+  /* margin: 10px; */
+}
+.noteTitle {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.noteTitleText {
+  width: 200px;
+  font-size: 20px;
+  border-radius: 4px;
+  border-color: rgb(216, 217, 217);
+  font-weight: bold;
+  padding: 5px;
+}
+
+.noteHeader {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(136, 135, 135);
+}
+
+.noteCategory {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  font-size: 20px;
+  color: #3e3e3e;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.noteCategoryLogo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: white;
+  background-color: rgb(43, 44, 44);
+}
+
+.noteDate {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  font-size: 12px;
+  color: #6e6e6e;
+  font-weight: bold;
+}
+.noteContent {
+  width: 60vw;
+  margin-top: 20px;
+}
+
+.noteViewContent {
+  margin-top: 20px;
+}
+.writeText {
+  font-size: 18px;
+  padding: 5px;
+  width: 60vw;
+  height: 50vh;
+  resize: vertical;
+  border: solid 1px rgb(190, 188, 188);
+}
+.mobileIcons {
+  display: none;
+}
+
+@media screen and (max-width: 770px) {
+  .mobileIcons {
+    display: flex;
+  }
+}

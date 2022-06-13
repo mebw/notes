@@ -1,0 +1,26 @@
+.container {
+  background: #ffffff;
+  padding: 5px;
+  color: rgb(128, 126, 126);
+  font-size: 0.8rem;
+  border: 2px solid rgb(40, 39, 39);
+  border-radius: 10px;
+  width: fit-content;
+  position: relative;
+}
+
+.remove {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(222, 40, 40);
+  color: white;
+  font-size: 0.6rem;
+  cursor: pointer;
+}

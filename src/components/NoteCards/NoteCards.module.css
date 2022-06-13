@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* width: 250px;
+    height: 250px; */
+  width: 100%;
+  padding: 10px;
+  flex-wrap: wrap;
+  /* margin: 0; */
+  /* background-color: #fff; */
+  /* border-radius: 5px; */
+  /* box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); */
+  gap: 20px;
+  height: 100%;
+}
+
+.sidebarItems {
+}
+
+.mobileIcons {
+  display: none;
+}
+
+@media screen and (max-width: 770px) {
+  .mobileIcons {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+}
